@@ -14,6 +14,12 @@ app.get("/launchx", (request, response) => {
   response.send("Bienvenidos a launchX");
 });
 
+//localhost:3000/node
+app.get("/node", (request, response) => {
+  const explorer1 = { id: 1, name: "haim" };
+  response.send(explorer1);
+});
+
 app.listen(port, () => {
   console.log("Servidor listo");
 });
