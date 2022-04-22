@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hA1nn-dot/Express_basics/issues"
   },
-  "homepage": "https://github.com/hA1nn-dot/Express_basics#readme"
+  "homepage": "https://github.com/hA1nn-dot/Express_basics#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
