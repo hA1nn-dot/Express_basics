@@ -20,6 +20,12 @@ app.get("/node", (request, response) => {
   response.send(explorer1);
 });
 
+//localhost:3000/explorers/haim
+app.get("/explorers:explorer", (request, response) => {
+  console.log(request.params);
+  response.send(request.params);
+});
+
 app.listen(port, () => {
   console.log("Servidor listo");
 });
